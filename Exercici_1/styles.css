@@ -1,0 +1,95 @@
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin-top: 30px;
+    align-items: center
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#navlist {
+    display: flex;
+    width: 35%;
+    font-size: 0.9em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(137, 136, 136);
+}
+#logo {
+    align-content: center;
+
+}
+
+#button-red{
+    padding: 25%;
+    background-color: rgb(255, 82, 82);
+    border-color: rgb(255, 82, 82);
+    padding-left: 65%;
+    padding-right: 65%;
+    color: white;
+    border-radius: 5px;
+}
+
+li {
+    list-style: none;
+  }
+
+#portada {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2{
+    font-size: 3em;
+}
+
+#portada-izquierda {
+    margin-left: 9%;
+    width: 35%;
+    margin-top: 7%;
+}
+
+#portada-derecha{
+    margin-top: 5em;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+#button-blue{
+    background-color: rgb(25, 70, 219);
+    border-color: rgb(25, 70, 219);
+    padding: 2%;
+    color: white;
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+#button-grey{
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    padding: 2%;
+    color: black;
+    border-radius: 5%;
+    font-weight: bold;
+}
