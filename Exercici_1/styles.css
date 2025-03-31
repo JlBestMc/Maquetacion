@@ -48,6 +48,28 @@ h3{
     font-size: 2em;
     margin-bottom: 0.1em;
 }
+
+h4{
+    margin-bottom: 0em;
+}
+
+img{
+    max-width: 100%;
+}
+
+hr{
+    width: 100%;
+    background-color: rgb(193, 192, 192);
+    height: 1px;
+    border: none;
+    margin-top: 0px;
+}
+
+p {
+    font-size: calc(0.9em + 0.2vw);
+    color:rgb(150 151 155);
+    line-height: 1.5em;
+}
 #logo-mobnav{
     display: flex;
     align-items: center;
@@ -89,11 +111,6 @@ nav a {
     letter-spacing: 0.10em;
 }
 
-p {
-    font-size: calc(1em + 0.2vw);
-    color:rgb(150 151 155);
-    line-height: 1.5em;
-}
 
 #contact{
     padding-right: 50px;
@@ -190,6 +207,19 @@ nav a:hover,
 
     #description-features{
         display: flex;
+        justify-content: center;
+    }
+
+    #portada-features{
+        flex-direction: column
+    }
+
+    #portada-features .button-blue{
+        display:none;
+    }
+
+    .hr-features{
+        display: block;
     }
 
 }
@@ -238,7 +268,7 @@ width: 100%;
     margin-bottom: 30px;
 }
 
-#button-blue{
+.button-blue{
     background-color: rgb(84 101 223);
     border-color: rgb(84 101 223);
     border-radius: 5px;
@@ -251,7 +281,7 @@ width: 100%;
     margin-bottom: 10px;
 }
 
-#button-blue:hover{
+.button-blue:hover{
     background-color: white;
     border-color: rgb(98 108 168);
     color: rgb(84 101 223);
@@ -311,9 +341,133 @@ display: flex;
 flex-direction: column;
 align-items: center;
 margin-top: 4.9em;
+padding-left: 25px;
+padding-right: 25px;
+margin-bottom: 10em;
 }
 
 #description-features{
-    width: 45%;
     text-align: center;
+    width: 32em;
+    margin-bottom: 4em;
+}
+
+#portada-features{
+    width: 100%;
+}
+
+#button-row{
+    display: flex;
+}
+
+.button-features{
+    border-style: solid;
+    border-color: white ;
+    background-color: white;
+    color:rgb(115 116 120);
+    font-size: calc(0.8em + 0.2vw);
+    padding-left:1.3em;
+    padding-right:1.3em;
+    padding-bottom: 1.4em;
+    border-bottom-width: 0.25em;
+    width: 13em;
+}
+
+.hr-features{
+    display: none;
+}
+
+.button-features:hover{
+    border-color: white white rgb(255, 82, 82) white;
+}
+
+#hr-bottom-button{
+    width: calc(11vw + 28em);
+    margin-bottom: 5em;
+}
+
+#portada-features{
+    display: flex;
+    align-items: center;
+}
+#izquierda-features{
+    width: 100%;
+}
+
+#derecha-features{
+    padding-left: 8em;
+}
+#derecha-features p{
+    width:85%;
+}
+
+#extensions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4.9em;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 10em;
+}
+
+#description-extension{
+    text-align: center;
+    width: 32em;
+    margin-bottom: 4em;
+}
+
+#extension-row{
+    display: flex;
+    gap: 2em;
+}
+
+#chrome-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#firefox-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5em;
+}
+
+#opera-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+
+}
+.small-p{
+    font-size: small;
+}
+
+.dots{
+    margin: 1.5em 0em;
+    width: 85%;
+}
+
+#extension-row .button-blue{
+    margin-right: 0em;
+}
+
+#questions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4.9em;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 10em;
+}
+
+#questions-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 32em;
 }
